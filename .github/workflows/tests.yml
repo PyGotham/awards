@@ -28,6 +28,8 @@ jobs:
           python-version: 3.9
 
       - uses: pre-commit/action@v2.0.3
+        env:
+          SKIP: no-commit-to-branch
 
   # Run the test suite and type checks.
   tox:
