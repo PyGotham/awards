@@ -20,6 +20,37 @@ $ poetry install
 
 ## Development
 
+### Management commands
+
+Several [Django] management commands are available through [tox] environments.
+Invoking the commands this way will ensure that all of the project's
+requirements are installed.
+
+`createsuperuser`: Create a new user with access to the admin. While it will
+prompt for a password, the value will be discarded; password-based logins are
+not supported.
+
+`dbshell`: Run `sqlite` for the configured database.
+
+`makemigrations`: Generate new migrations for installed applications.
+
+`migrate`: Apply all outstanding migrations by default. The name of an
+application and either a forward or backward migration can be specified as well.
+
+`runserver`: Run the development server with watchman_ watching for changes. If
+the `PYTHONBREAKPOINT` environment variable is set, it will be passed through to
+the environment. The following debuggers are supported:
+
+- bpdb
+- ipdb
+- pdb
+- pudb
+
+`shell`: Run a [Django]-aware interactive interpreter. [bpython] or [ipython]
+can be specified to select an interface other than the default Python REPL.
+
+`startapp`: Create a new [Django] application with the specified name.
+
 ### Code style
 
 This code base uses [pre-commit] to apply stylistic restraints. If you have it
@@ -69,6 +100,9 @@ the pull request with the changes. It will also take care of keeping the
 [pre-commit] hooks updated.
 
 [actions]: https://docs.github.com/en/actions
+[bpython]: https://bpython-interpreter.org
+[django]: https://www.djangoproject.com
+[ipython]: https://ipython.readthedocs.io
 [pip]: https://pip.pypa.io
 [poetry]: https://python-poetry.org
 [pre-commit]: https://pre-commit.com
