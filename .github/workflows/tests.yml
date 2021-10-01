@@ -31,6 +31,68 @@ jobs:
         env:
           SKIP: no-commit-to-branch
 
+  migrations:
+    runs-on: ubuntu-latest
+
+    services:
+      db:
+        image: postgres:14.0
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        # This is needed because the postgres container does not provide a
+        # healthcheck.
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Set up Poetry
+        shell: bash
+        run: pip install poetry
+
+      - name: Set up cache
+        uses: actions/cache@v2
+        id: poetry-cache
+        with:
+          path: .venv
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+
+      - name: Install dependencies
+        shell: bash
+        run: poetry install
+
+      - name: Run migrations
+        shell: bash
+        env:
+          DATABASE_HOST: localhost
+          DATABASE_NAME: postgres
+          DATABASE_PASSWORD: postgres
+          DATABASE_PORT: 5432
+          DATABASE_USER: postgres
+
+        run: |
+          poetry run tox -e migrate
+
+          # Reverse all of the migrations. This must be done app by app.
+          poetry run tox -e migrate accounts zero
+
+          # Apply the migrations again just to make sure we cleaned up
+          # after ourselves properly.
+          poetry run tox -e migrate
+
   # Run the test suite and type checks.
   tox:
     name: ${{ matrix.toxenv }}
