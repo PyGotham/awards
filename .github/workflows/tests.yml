@@ -41,6 +41,19 @@ jobs:
           - types
           - unit
 
+    services:
+      db:
+        image: postgres:14.0
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        # This is needed because the postgres container does not provide a
+        # healthcheck.
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
     steps:
       - uses: actions/checkout@v2
         with:
@@ -70,4 +83,10 @@ jobs:
 
       - name: Run ${{ matrix.toxenv }}
         shell: bash
+        env:
+          DATABASE_HOST: localhost
+          DATABASE_NAME: postgres
+          DATABASE_PASSWORD: postgres
+          DATABASE_PORT: 5432
+          DATABASE_USER: postgres
         run: poetry run tox -e ${{ matrix.toxenv }}
