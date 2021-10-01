@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if not request.user.is_authenticated %}
+    Log in
+  {% endif %}
+{% endblock %}
