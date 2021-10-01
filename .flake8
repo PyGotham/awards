@@ -3,4 +3,6 @@ extend-ignore = E203, E266, E501
 # Line length is intentionally set to 80 here because we use Bugbear.
 max-line-length = 80
 max-complexity = 18
+per-file-ignores =
+    awards/settings/dev.py: F405
 select = B,C,E,F,W,T4,B9
