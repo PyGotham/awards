@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/PyGotham/awards"
 
 [tool.poetry.dependencies]
-Django = "^3.2.7"
+Django = "^3.2.8"
 psycopg2 = "^2.9.1"
 python = "^3.9"
 python-decouple = "^3.5"
