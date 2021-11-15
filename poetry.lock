@@ -99,8 +99,8 @@ six = "*"
 
 [[package]]
 name = "bpython"
-version = "0.21"
-description = "Fancy Interface to the Python Interpreter"
+version = "0.22.1"
+description = ""
 category = "dev"
 optional = false
 python-versions = ">=3.6"
@@ -112,8 +112,10 @@ greenlet = "*"
 pygments = "*"
 pyxdg = "*"
 requests = "*"
+typing-extensions = "*"
 
 [package.extras]
+clipboard = ["pyperclip"]
 jedi = ["jedi (>=0.16)"]
 urwid = ["urwid"]
 watch = ["watchdog"]
@@ -928,7 +930,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "3456ee3018a8a19e8050e320a3558bad4b987bebc21e3f38aab15fa88bcc5d2b"
+content-hash = "f1f7fed46bd0e19be21119727556ee919c7a041a584d67ae458479b5de0aba61"
 
 [metadata.files]
 appnope = [
@@ -965,8 +967,8 @@ blessings = [
     {file = "blessings-1.7.tar.gz", hash = "sha256:98e5854d805f50a5b58ac2333411b0482516a8210f23f43308baeb58d77c157d"},
 ]
 bpython = [
-    {file = "bpython-0.21-py3-none-any.whl", hash = "sha256:64a2032052c629f0fc2d215cdcf3cbdc005d9001a4e8c11b2126e80899be77fb"},
-    {file = "bpython-0.21.tar.gz", hash = "sha256:88aa9b89974f6a7726499a2608fa7ded216d84c69e78114ab2ef996a45709487"},
+    {file = "bpython-0.22.1-py3-none-any.whl", hash = "sha256:27ab07d64b9f0268990612aa5c1ab7be8705aa819b14b72c9e4b3b0418458937"},
+    {file = "bpython-0.22.1.tar.gz", hash = "sha256:1fb1e0a52332579fc4e3dcf75e21796af67aae2be460179ecfcce9530a49a200"},
 ]
 certifi = [
     {file = "certifi-2021.5.30-py2.py3-none-any.whl", hash = "sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8"},
