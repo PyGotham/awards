@@ -220,7 +220,7 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-debug-toolbar"
-version = "3.2.2"
+version = "3.2.3"
 description = "A configurable set of panels that display various debug information about the current request/response."
 category = "dev"
 optional = false
@@ -921,7 +921,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "4d3d336b13ab8bdadd20bf6314806caab0777ad52403ff60eb6cb93d8c298721"
+content-hash = "c554440b0de7a6f0861244e3b68a1b080f4fbc91746436480d10b98617be45ba"
 
 [metadata.files]
 appnope = [
@@ -1028,8 +1028,8 @@ django = [
     {file = "Django-4.0.tar.gz", hash = "sha256:d5a8a14da819a8b9237ee4d8c78dfe056ff6e8a7511987be627192225113ee75"},
 ]
 django-debug-toolbar = [
-    {file = "django-debug-toolbar-3.2.2.tar.gz", hash = "sha256:8c5b13795d4040008ee69ba82dcdd259c49db346cf7d0de6e561a49d191f0860"},
-    {file = "django_debug_toolbar-3.2.2-py3-none-any.whl", hash = "sha256:d7bab7573fab35b0fd029163371b7182f5826c13da69734beb675c761d06a4d3"},
+    {file = "django-debug-toolbar-3.2.3.tar.gz", hash = "sha256:95880677ea846ba1077d02305fd5e2b25e1da096e1d4a735b665e3340fa2ae79"},
+    {file = "django_debug_toolbar-3.2.3-py3-none-any.whl", hash = "sha256:516702e1d71302bbc06059fa3c41efd1a3bd9cbb5580fc793343118d95b309e0"},
 ]
 django-stubs = [
     {file = "django-stubs-1.9.0.tar.gz", hash = "sha256:664843091636a917faf5256d028476559dc360fdef9050b6df87ab61b21607bf"},
