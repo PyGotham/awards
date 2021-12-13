@@ -13,7 +13,7 @@ repos:
         args: ['--branch', 'main']
       - id: trailing-whitespace
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 2.3.54
+    rev: 2.4.0
     hooks:
       - id: editorconfig-checker
         alias: ec
