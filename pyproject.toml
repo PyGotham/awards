@@ -30,7 +30,7 @@ pudb = "^2021.2"
 pytest = "^6.2.5"
 pytest-django = "^4.5.2"
 pywatchman = "^1.4.1"
-tox = "^3.24.3"
+tox = "^3.24.5"
 tox-poetry = "^0.4.1"
 
 [tool.django-stubs]
