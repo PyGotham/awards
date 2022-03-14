@@ -626,7 +626,7 @@ python-versions = "*"
 
 [[package]]
 name = "pudb"
-version = "2022.1"
+version = "2022.1.1"
 description = "A full-screen, console-based Python debugger"
 category = "dev"
 optional = false
@@ -1313,7 +1313,7 @@ ptyprocess = [
     {file = "ptyprocess-0.7.0.tar.gz", hash = "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"},
 ]
 pudb = [
-    {file = "pudb-2022.1.tar.gz", hash = "sha256:e827a4b489dcad561189535db6677becbf32164b2b44df00786eb2d5e00c587e"},
+    {file = "pudb-2022.1.1.tar.gz", hash = "sha256:db3bdd66423c9d29074c1c2c49fcb224bd0d6f08319fed1b4e7ead683914083f"},
 ]
 pure-eval = [
     {file = "pure_eval-0.2.1-py3-none-any.whl", hash = "sha256:94eeb505a88721bec7bb21a4ac49758b8b1a01530da1a70d4ffc1d9937689d71"},
