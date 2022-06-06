@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: 3.9
 
-      - uses: pre-commit/action@v2.0.3
+      - uses: pre-commit/action@v3.0.0
         env:
           SKIP: no-commit-to-branch
 
