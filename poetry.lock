@@ -242,7 +242,7 @@ sqlparse = ">=0.2.0"
 
 [[package]]
 name = "django-stubs"
-version = "1.10.1"
+version = "1.11.0"
 description = "Mypy stubs for Django"
 category = "dev"
 optional = false
@@ -251,7 +251,7 @@ python-versions = ">=3.7"
 [package.dependencies]
 django = "*"
 django-stubs-ext = ">=0.4.0"
-mypy = ">=0.930,<0.950"
+mypy = ">=0.930,<0.960"
 tomli = "*"
 types-pytz = "*"
 types-PyYAML = "*"
@@ -959,7 +959,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "0220c9a2d29c75e9c2a23caae8b76c09912ae3a2ecf6fada98f27dd3870db2ad"
+content-hash = "711517e5f9504fcb8f0d8bd18f0695a0e42acef1f2c86e934fab7f8da562fbf4"
 
 [metadata.files]
 appnope = [
@@ -1095,8 +1095,8 @@ django-debug-toolbar = [
     {file = "django_debug_toolbar-3.4.0-py3-none-any.whl", hash = "sha256:42c1c2e9dc05bb57b53d641e3a6d131fc031b92377b34ae32e604a1fe439bb83"},
 ]
 django-stubs = [
-    {file = "django-stubs-1.10.1.tar.gz", hash = "sha256:2ec21fc14dba392156e0ec8438e1863c86ddb295f1c8d88eecd7e0e04977c843"},
-    {file = "django_stubs-1.10.1-py3-none-any.whl", hash = "sha256:dfffa933e3c7f5cae92c860fbd6cf4ae58c4f78eed93843612f863207c9e0e1a"},
+    {file = "django-stubs-1.11.0.tar.gz", hash = "sha256:11a4aa094d3da0108d268386dfd0b9a5bf73fe1ab5919b5a292607671329bc4b"},
+    {file = "django_stubs-1.11.0-py3-none-any.whl", hash = "sha256:e9362c0992414560fc6d2f91aa4dd8339b1cbbf7ddacc95b06cc219b1792d217"},
 ]
 django-stubs-ext = [
     {file = "django-stubs-ext-0.4.0.tar.gz", hash = "sha256:3104c4748c34bd741c310a3e6af90dffba46e41bccbe243896e38a708262876b"},
