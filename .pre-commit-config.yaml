@@ -17,8 +17,8 @@ repos:
     hooks:
       - id: editorconfig-checker
         alias: ec
-  - repo: https://github.com/myint/autoflake
-    rev: v1.5.3
+  - repo: https://github.com/PyCQA/autoflake
+    rev: v1.6.0
     hooks:
       - id: autoflake
         args: ['--in-place', '--remove-all-unused-imports', '--remove-unused-variables']
