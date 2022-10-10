@@ -9,7 +9,7 @@ repository = "https://github.com/PyGotham/awards"
 
 [tool.poetry.dependencies]
 Django = "^4.1"
-psycopg2 = "^2.9.3"
+psycopg2 = "^2.9.4"
 python = "^3.9"
 python-decouple = "^3.6"
 
