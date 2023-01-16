@@ -11,7 +11,7 @@ repository = "https://github.com/PyGotham/awards"
 Django = "^4.1"
 psycopg2 = "^2.9.5"
 python = "^3.9"
-python-decouple = "^3.6"
+python-decouple = "^3.7"
 
 [tool.poetry.dev-dependencies]
 black = "^22.12"
