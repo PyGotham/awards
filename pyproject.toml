@@ -31,7 +31,7 @@ pytest = "^7.2.1"
 pytest-django = "^4.5.2"
 pywatchman = "^1.4.1"
 tox = "^3.27.1"
-tox-poetry = "^0.4.1"
+tox-poetry = "^0.5.0"
 
 [tool.django-stubs]
 django_settings_module = "awards.settings"
