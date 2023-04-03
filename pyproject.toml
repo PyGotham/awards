@@ -14,7 +14,7 @@ python = "^3.9"
 python-decouple = "^3.8"
 
 [tool.poetry.dev-dependencies]
-black = "^23.1"
+black = "^23.3"
 bpython = "^0.24"
 django-debug-toolbar = "^3.8.1"
 django-stubs = "^1.16.0"
