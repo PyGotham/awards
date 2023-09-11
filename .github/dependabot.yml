@@ -13,3 +13,8 @@ updates:
       interval: "weekly"
     pull-request-branch-name:
       separator: "-"
+    groups:
+      django:
+        patterns:
+          - "django"
+          - "django-stubs"
