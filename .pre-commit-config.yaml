@@ -17,6 +17,11 @@ repos:
     hooks:
       - id: editorconfig-checker
         alias: ec
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        args: ['--py311-plus']
   - repo: https://github.com/PyCQA/autoflake
     rev: v2.2.1
     hooks:
