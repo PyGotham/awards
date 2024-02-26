@@ -13,13 +13,13 @@ files = [
 
 [[package]]
 name = "asgiref"
-version = "3.6.0"
+version = "3.7.2"
 description = "ASGI specs, helper code, and adapters"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "asgiref-3.6.0-py3-none-any.whl", hash = "sha256:71e68008da809b957b7ee4b43dbccff33d1b23519fb8344e33f049897077afac"},
-    {file = "asgiref-3.6.0.tar.gz", hash = "sha256:9567dfe7bd8d3c8c892227827c41cce860b368104c3431da67a0c5a65a949506"},
+    {file = "asgiref-3.7.2-py3-none-any.whl", hash = "sha256:89b2ef2247e3b562a16eef663bc0e2e703ec6468e2fa8a5cd61cd449786d4f6e"},
+    {file = "asgiref-3.7.2.tar.gz", hash = "sha256:9e0ce3aa93a819ba5b45120216b23878cf6e8525eb3848653452b4192b92afed"},
 ]
 
 [package.extras]
@@ -281,17 +281,17 @@ files = [
 
 [[package]]
 name = "django"
-version = "4.2.10"
+version = "5.0.2"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 files = [
-    {file = "Django-4.2.10-py3-none-any.whl", hash = "sha256:a2d4c4d4ea0b6f0895acde632071aff6400bfc331228fc978b05452a0ff3e9f1"},
-    {file = "Django-4.2.10.tar.gz", hash = "sha256:b1260ed381b10a11753c73444408e19869f3241fc45c985cd55a30177c789d13"},
+    {file = "Django-5.0.2-py3-none-any.whl", hash = "sha256:56ab63a105e8bb06ee67381d7b65fe6774f057e41a8bab06c8020c8882d8ecd4"},
+    {file = "Django-5.0.2.tar.gz", hash = "sha256:b5bb1d11b2518a5f91372a282f24662f58f66749666b0a286ab057029f728080"},
 ]
 
 [package.dependencies]
-asgiref = ">=3.6.0,<4"
+asgiref = ">=3.7.0,<4"
 sqlparse = ">=0.3.1"
 tzdata = {version = "*", markers = "sys_platform == \"win32\""}
 
@@ -316,35 +316,34 @@ sqlparse = ">=0.2"
 
 [[package]]
 name = "django-stubs"
-version = "4.2.4"
+version = "4.2.7"
 description = "Mypy stubs for Django"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "django-stubs-4.2.4.tar.gz", hash = "sha256:7d4a132c381519815e865c27a89eca41bcbd06056832507224816a43d75c601c"},
-    {file = "django_stubs-4.2.4-py3-none-any.whl", hash = "sha256:834b60fd81510cce6b56c1c6c28bec3c504a418bc90ff7d0063fabe8ab9a7868"},
+    {file = "django-stubs-4.2.7.tar.gz", hash = "sha256:8ccd2ff4ee5adf22b9e3b7b1a516d2e1c2191e9d94e672c35cc2bc3dd61e0f6b"},
+    {file = "django_stubs-4.2.7-py3-none-any.whl", hash = "sha256:4cf4de258fa71adc6f2799e983091b9d46cfc67c6eebc68fe111218c9a62b3b8"},
 ]
 
 [package.dependencies]
 django = "*"
-django-stubs-ext = ">=4.2.2"
-mypy = ">=1.0.0"
+django-stubs-ext = ">=4.2.7"
 types-pytz = "*"
 types-PyYAML = "*"
 typing-extensions = "*"
 
 [package.extras]
-compatible-mypy = ["mypy (==1.5.*)"]
+compatible-mypy = ["mypy (>=1.7.0,<1.8.0)"]
 
 [[package]]
 name = "django-stubs-ext"
-version = "4.2.2"
+version = "4.2.7"
 description = "Monkey-patching and extensions for django-stubs"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "django-stubs-ext-4.2.2.tar.gz", hash = "sha256:c69d1cc46f1c4c3b7894b685a5022c29b2a36c7cfb52e23762eaf357ebfc2c98"},
-    {file = "django_stubs_ext-4.2.2-py3-none-any.whl", hash = "sha256:fdacc65a14d2d4b97334b58ff178a5853ec8c8c76cec406e417916ad67536ce4"},
+    {file = "django-stubs-ext-4.2.7.tar.gz", hash = "sha256:519342ac0849cda1559746c9a563f03ff99f636b0ebe7c14b75e816a00dfddc3"},
+    {file = "django_stubs_ext-4.2.7-py3-none-any.whl", hash = "sha256:45a5d102417a412e3606e3c358adb4744988a92b7b58ccf3fd64bddd5d04d14c"},
 ]
 
 [package.dependencies]
@@ -1399,4 +1398,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d3bb2d931db6f8a7a475dc12fb270a9b28cb3d83c2be06ec4e5b51ee632ee017"
+content-hash = "16b0ae9ee8e47b82f005d7d2de5050d615acd39934e124f2eaa59ec983b48fbc"
