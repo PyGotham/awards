@@ -18,7 +18,7 @@ repos:
       - id: editorconfig-checker
         alias: ec
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.0
     hooks:
       - id: pyupgrade
         args: ['--py311-plus']
@@ -28,7 +28,7 @@ repos:
       - id: autoflake
         args: ['--in-place', '--remove-all-unused-imports', '--remove-unused-variables']
   - repo: https://github.com/PyCQA/isort
-    rev: 6.1.0
+    rev: 7.0.0
     hooks:
       - id: isort
   - repo: https://github.com/psf/black-pre-commit-mirror
