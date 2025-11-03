@@ -131,14 +131,14 @@ wcwidth = ">=0.1.4"
 
 [[package]]
 name = "bpython"
-version = "0.25"
-description = ""
+version = "0.26"
+description = "A fancy curses interface to the Python interactive interpreter"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "bpython-0.25-py3-none-any.whl", hash = "sha256:28fd86008ca5ef6100ead407c9743aa60c51293a18ba5b18fcacea7f5b7f2257"},
-    {file = "bpython-0.25.tar.gz", hash = "sha256:c246fc909ef6dcc26e9d8cb4615b0e6b1613f3543d12269b19ffd0782166c65b"},
+    {file = "bpython-0.26-py3-none-any.whl", hash = "sha256:91bdbbe667078677dc6b236493fc03e47a04cd099630a32ca3f72d6d49b71e20"},
+    {file = "bpython-0.26.tar.gz", hash = "sha256:f79083e1e3723be9b49c9994ad1dd3a19ccb4d0d4f9a6f5b3a73bef8bc327433"},
 ]
 
 [package.dependencies]
@@ -152,7 +152,7 @@ requests = "*"
 [package.extras]
 clipboard = ["pyperclip"]
 jedi = ["jedi (>=0.16)"]
-urwid = ["urwid"]
+urwid = ["urwid (<3.0)"]
 watch = ["watchdog"]
 
 [[package]]
@@ -1533,4 +1533,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "a72f8b98c80b50a78b201b02add729030843fafe4ead0afdf32f8bdda48b5130"
+content-hash = "aa84f18dcdeba5b645d9ac7ddc9994b627eb14d84862002410b58c4f66849b12"
