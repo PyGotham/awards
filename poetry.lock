@@ -1164,22 +1164,18 @@ dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests
 
 [[package]]
 name = "pytest-django"
-version = "4.11.1"
+version = "4.12.0"
 description = "A Django plugin for pytest."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "pytest_django-4.11.1-py3-none-any.whl", hash = "sha256:1b63773f648aa3d8541000c26929c1ea63934be1cfa674c76436966d73fe6a10"},
-    {file = "pytest_django-4.11.1.tar.gz", hash = "sha256:a949141a1ee103cb0e7a20f1451d355f83f5e4a5d07bdd4dcfdd1fd0ff227991"},
+    {file = "pytest_django-4.12.0-py3-none-any.whl", hash = "sha256:3ff300c49f8350ba2953b90297d23bf5f589db69545f56f1ec5f8cff5da83e85"},
+    {file = "pytest_django-4.12.0.tar.gz", hash = "sha256:df94ec819a83c8979c8f6de13d9cdfbe76e8c21d39473cfe2b40c9fc9be3c758"},
 ]
 
 [package.dependencies]
 pytest = ">=7.0.0"
-
-[package.extras]
-docs = ["sphinx", "sphinx_rtd_theme"]
-testing = ["Django", "django-configurations (>=2.0)"]
 
 [[package]]
 name = "python-decouple"
@@ -1587,4 +1583,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "a3ff84799927d09fb1a366d287a5c49ad3cf636508f4187e0ba5eff2176e82e9"
+content-hash = "2c973245028d3491b69e51ea67b1c78417d55e05129dff5b8fd6f5f14c1d8395"
