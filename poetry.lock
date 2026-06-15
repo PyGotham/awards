@@ -1350,20 +1350,20 @@ dev = ["black", "build", "mypy", "pytest", "pytest-cov", "setuptools", "tox", "t
 
 [[package]]
 name = "pywatchman"
-version = "3.0.0"
+version = "4.0.0"
 description = "Watchman client for Python"
 optional = false
 python-versions = ">=3.8"
 groups = ["dev"]
 files = [
-    {file = "pywatchman-3.0.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:91f521ed0b4e64433ccf8f57bdd9ce7da8722cd1acc54a5e9f715acd86bf3ec5"},
-    {file = "pywatchman-3.0.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:b652304404b47fc5ca0b9b29f70334b0455c155425934dcb8365e66da2c543d3"},
-    {file = "pywatchman-3.0.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:4f69c49a72e81f1d24733ff5c9dda451404c542edb1efafdb77fd43c7c1a8df9"},
-    {file = "pywatchman-3.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:c15484b7d20c007f5b3c7781dddf5acb2c8a8f6440925e3e512b7e194b05dda9"},
-    {file = "pywatchman-3.0.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:79eac1371ba3f5e33a8a94438956380656dd66316225acc3cda42ca598008986"},
-    {file = "pywatchman-3.0.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:64875a9cc2a3e16402c2a267aa94ea755af8ff7e2bfeaf250d7e0285efdf98c0"},
-    {file = "pywatchman-3.0.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:302c04c71950c4e0fde17a593029b552ac0a9ada6b967ea0ca25701f47d7f254"},
-    {file = "pywatchman-3.0.0.tar.gz", hash = "sha256:efd32a17391a5872118c55041da71a20960e46ba4b73440c24efac287eea911e"},
+    {file = "pywatchman-4.0.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:f4a1d2de2ace1282080686894969c8e4131dc979a71cb48eefed9ae0b840c77c"},
+    {file = "pywatchman-4.0.0-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:7d99f8def9009d8b41387bde993f8099189f530a405378acf469a4ba12ee49e1"},
+    {file = "pywatchman-4.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:aa63e2c73a75a49b183c9efc5e1e6c8e984a0258123be8c7b6b53a31c5039f38"},
+    {file = "pywatchman-4.0.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:b5d49394a989dd1954a738e0e9ebef4cac43ad74c0817c63c0ffce1fb5cd3e64"},
+    {file = "pywatchman-4.0.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:45866688d3372f68b9a60fd38cee657fb30906f1110aa266cb82d3b0afaa1b1c"},
+    {file = "pywatchman-4.0.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:575c92a716f718ace5f61dd2727ae00b3a7c903746fbceeda3e5edb9d271ea42"},
+    {file = "pywatchman-4.0.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:09229f15ccf0fb5ed15592d41530ef69011866e3da4bf72785a965099519a33b"},
+    {file = "pywatchman-4.0.0.tar.gz", hash = "sha256:2dea10710160c6f6bcd220c49a27895234897cfdec62c5b1098f6a0ee4edd79a"},
 ]
 
 [[package]]
@@ -1728,4 +1728,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "c9310d4e0d6a0f3705cdcd8230a8297a421465538c211de1cd4a8637c457f192"
+content-hash = "de7271a539ad4f0472c3aafc1a68fcfbab2530e5c70bfdb648d192ae4fce2e62"
