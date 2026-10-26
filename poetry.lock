@@ -1270,14 +1270,14 @@ files = [
 
 [[package]]
 name = "pudb"
-version = "2025.1.5"
+version = "2026.1"
 description = "A full-screen, console-based Python debugger"
 optional = false
-python-versions = "~=3.8"
+python-versions = "~=3.10"
 groups = ["dev"]
 files = [
-    {file = "pudb-2025.1.5-py3-none-any.whl", hash = "sha256:e40c69f102d534cc7b86020c0217e3d424ee81b14a229d068ac122089c301f59"},
-    {file = "pudb-2025.1.5.tar.gz", hash = "sha256:e6dedb81fc3c8cdcd66cf62e86337cb913570ebb2c994c9ab52012d059e086ad"},
+    {file = "pudb-2026.1-py3-none-any.whl", hash = "sha256:7e7c5f8d21d9fb60eb09337f3ee2d843054ff181f5fafbfd193beeec07aab092"},
+    {file = "pudb-2026.1.tar.gz", hash = "sha256:e32c8eeca47087699548197f101b1fe195ab8187b90e171f0a38cc0852fca73c"},
 ]
 
 [package.dependencies]
@@ -1858,4 +1858,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "a06d76bb5661cdfd31337bfb90597278ff7ad47b0c09b272d7582c118ff2872b"
+content-hash = "709788f14068a354b8829702db273662318c608c9f6823ec149459b576e3c546"
